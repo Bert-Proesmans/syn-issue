@@ -1,0 +1,15 @@
+[package]
+name = "syn_issue"
+version = "0.1.0"
+authors = ["Bert Proesmans <bproesmans@hotmail.com>"]
+
+[dependencies]
+proc_macro = {path = "proc_macro"}
+
+[features]
+default = ["case-one", "case-two", "case-three", "case-four"]
+
+case-one = []
+case-two = []
+case-three = []
+case-four = []
